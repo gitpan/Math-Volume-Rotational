@@ -1,4 +1,4 @@
-Math::Volume::Rotational version 0.10
+Math::Volume::Rotational version 0.11
 =====================================
 
 This module calculates the volume of rotational bodies. These are bodies

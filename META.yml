@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name: Math-Volume-Rotational
-version: 0.10
+version: 0.11
 abstract: Volume of rotational bodies
 license: perl
 distribution_type: module

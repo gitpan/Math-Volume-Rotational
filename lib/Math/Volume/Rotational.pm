@@ -70,7 +70,7 @@ our %EXPORT_TAGS = (
 our @EXPORT_OK = ( @{ $EXPORT_TAGS{'all'} } );
 our @EXPORT;
 
-our $VERSION = '0.10';
+our $VERSION = '0.11';
 
 
 
@@ -141,7 +141,7 @@ sub volume_rot_y {
 =head2 volume_rot_arb
 
 Calculates the volume of a rotational
-body by rotating a the portion of
+body by rotating a portion of
 a function graph around an arbitrary axis in R^2.
 The function graph is integrated from a lower to an upper boundary.
 volume_rot_arb takes named arguments:
@@ -162,7 +162,7 @@ optional argument if the variable can be inferred from the function.
 =item lower_boundary_function
 
 This optional argument indicates a function to subtract from the integration
-function before integration. Thus, you can calculate the volume of an empty
+function before integration. Thus, you can calculate the volume of a hollow
 sphere of a given thickness.
 
 =item axis_y
